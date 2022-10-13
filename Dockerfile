@@ -1,4 +1,4 @@
-FROM ubuntu: latest
+FROM hello-world:nanoserver-1809
 ## pull images from registry
 LABEL name=priyanshu
 RUN apt update
